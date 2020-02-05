@@ -86,5 +86,3 @@ In the above example, the `id` from the array will be interpolated into the SQL 
 * [Postgres Numeric Data Types](https://www.postgresql.org/docs/11/datatype-numeric.html)
 * [Little Bobby Tables](https://xkcd.com/327/)
 * [SQL Injection](https://en.wikipedia.org/wiki/SQL_injection)
-
-#### Inspired by [Sadie Freeman's](https://github.com/sadief) [lecture](https://github.com/sadief/lighthouse-labs-lectures/tree/may-21-19-sql/SQL_in_our_apps) on the same topic
