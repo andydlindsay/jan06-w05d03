@@ -40,8 +40,9 @@ switch (query) {
   case 'edit':
     id = arguments[1];
     const villain = arguments[2];
+    const sql = 'UPDATE villains SET villain = $1 WHERE id = $2;';
     client
-      .query('UPDATE villains SET villain = $1 WHERE id = $2;', [villain, id])
+      .query(sql, [villain, id])
       .then(() => {
         console.log('villain updated successfully');
         client.end();
